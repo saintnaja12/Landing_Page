@@ -1,0 +1,614 @@
+body {
+    background: #f7f7f7;
+    position: relative;
+}
+
+del {
+    color: #808080;
+}
+
+.line1 {
+    /* position: absolute; */
+    margin: 50px auto;
+    width: 75px;
+    height: 0px;
+
+    border: 1px solid #ffffff;
+}
+
+.line2 {
+    /* position: absolute; */
+    margin: 50px auto;
+    width: 75px;
+    height: 0px;
+
+    border: 1px solid #0E253B;
+}
+
+.line3 {
+    position: absolute;
+    /* margin-left: 15px; */
+    width: 100%;
+    height: 0px;
+    border: 1px solid #0E253B;
+}
+
+.line4 {
+    position: absolute;
+    /* margin-left: 15px; */
+    margin-top: 110px;
+    width: 100%;
+    height: 0px;
+    border: 1px solid #0E253B;
+}
+
+.line5 {
+    position: absolute;
+    /* margin-left: 15px; */
+    width: 100%;
+    height: 0px;
+    border: 1px solid #0E253B;
+}
+
+.line6 {
+    position: absolute;
+    /* margin-left: 15px; */
+    margin-top: 110px;
+    width: 100%;
+    height: 0px;
+    border: 1px solid #0E253B;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: 180px;
+    display: block;
+}
+
+.badge {
+    position: absolute;
+    top: 2px;
+    /* right: -1px; */
+    margin-left: 30px;
+    padding: 6px 10px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+}
+
+.img-chef {
+    width: 100%;
+    filter: brightness(60%);
+    padding-top: 40px;
+}
+
+.img-social {
+    height: 30px;
+    width: 30px;
+    margin: 5px 5px 5px 5px;
+}
+
+#card-menu {
+    margin-top: 50px;
+}
+
+#img-content {
+    margin-top: 75px;
+    margin-bottom: 10px;
+}
+
+#Modal {
+    margin-right: 10px;
+}
+
+/* .navbar-expand {
+    -sm|-md|-lg|-xl
+} */
+
+#Discover {
+    padding-top: 100px;
+}
+
+#Reservation {
+    padding-top: 100px;
+}
+
+#Delivery {
+    padding-top: 120px;
+}
+
+/* .progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+    margin-top: 100px;
+}
+
+.progress-bar {
+    height: 8px;
+    background: #4caf50;
+    width: 0%;
+} */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .main-text {
+        color: #fff;
+        position: absolute;
+        top: 30px;
+        width: 92%;
+        margin-top: 100px;
+    }
+
+    .main-text h3 {
+        font-size: 16px;
+    }
+
+    .main-text h2 {
+        font-size: 22px;
+    }
+
+    #pesto_header {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    /* ------------------------------ */
+
+    #bright-img {
+        filter: brightness(60%);
+        height: 450px;
+    }
+
+    /* ------------------------------ */
+
+    .welcome-text h2 {
+        font-size: 20px;
+    }
+
+    #h4 {
+        color: #343a40;
+        font-size: 16px;
+    }
+
+    #topic_rec {
+        font-size: 25px;
+    }
+
+    /* ------------------------------ */
+
+    .main-text2 {
+        color: #fff;
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        margin: 10px 100px 0px 0px;
+    }
+
+    .rectangle {
+        /* position: absolute; */
+        width: 80px;
+        height: 30px;
+        background: #e8da5a;
+        float: right;
+        margin: 15px 110px 10px 0px;
+        /* float: right; */
+    }
+
+    #discover {
+        margin: 3px 5px 5px 5px;
+        color: #fff;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    #Our {
+        font-size: 22px;
+        margin: 55px 100px 15px 00px;
+        text-align: right;
+    }
+
+    #short {
+        font-size: 18px;
+        margin: 0px 100px 20px 100px;
+        text-align: right;
+    }
+
+    #para {
+        margin: 0px 100px 20px 100px;
+        text-align: right;
+    }
+
+    .img-chef {
+        height: 500px;
+    }
+
+    /* --------------------------------------- */
+
+    .img-thumbnail {
+        height: 120px;
+        width: 120px;
+        margin: 20px 20px 10px 20px;
+    }
+
+    /* -------------------------------------------- */
+
+    form {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    /* -------------------------------------------- */
+
+    #footer {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #Subscribe {
+        font-size: 22px;
+    }
+
+    .footer {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    #email {
+        margin-left: 15px;
+    }
+
+    /* ---------------------------------------------------------------- */
+
+    .carousel-control-prev{
+        display: none;
+    }
+
+    .carousel-control-next{
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .main-text {
+        color: #fff;
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    .main-text h3 {
+        font-size: 25px;
+    }
+
+    .main-text h2 {
+        font-size: 28px;
+    }
+
+    #pesto_header {
+        font-size: 65px;
+        font-weight: bold;
+    }
+
+    /* ------------------------------- */
+
+    #bright-img {
+        filter: brightness(60%);
+        height: 600px;
+    }
+
+    /* ---------------------------- */
+
+    .welcome-text h2 {
+        font-size: 25px;
+    }
+
+    #h4 {
+        color: #343a40;
+        font-size: 16px;
+    }
+
+    #topic_rec {
+        font-size: 25px;
+    }
+
+    /* ------------------------------- */
+
+    .main-text2 {
+        color: #fff;
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        margin: 50px 100px 0px 0px;
+    }
+
+    .rectangle {
+        /* position: absolute; */
+        width: 100px;
+        height: 35px;
+        background: #e8da5a;
+        float: right;
+        margin: 20px 110px 0px 0px;
+        /* float: right; */
+    }
+
+    #discover {
+        margin: 3px 5px 5px 5px;
+        color: #fff;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    #Our {
+        font-size: 60px;
+        margin: 80px 100px 30px 00px;
+        text-align: right;
+    }
+
+    #short {
+        font-size: 28px;
+        margin: 0px 100px 20px 100px;
+        text-align: right;
+    }
+
+    #para {
+        margin: 0px 100px 20px 100px;
+        text-align: right;
+    }
+
+    .img-chef {
+        height: 550px;
+    }
+
+    /* ------------------------------------------ */
+
+    .img-thumbnail {
+        height: 175px;
+        width: 175px;
+        margin: 30px 30px 10px 30px;
+    }
+
+    /* -------------------------------------------- */
+
+    form {
+        margin-left: 50px;
+    }
+
+    /* --------------------------------------------- */
+
+    #footer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #Subscribe {
+        font-size: 25px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .main-text {
+        color: #fff;
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        margin-top: 150px;
+    }
+
+    .main-text h3 {
+        font-size: 30px;
+    }
+
+    #pesto_header {
+        font-size: 80px;
+        font-weight: bold;
+    }
+
+    /* ------------------------------ */
+
+    #bright-img {
+        filter: brightness(60%);
+        height: 700px;
+    }
+
+    /* ------------------------------ */
+
+    .welcome-text h2 {
+        font-size: 30px;
+    }
+
+    #h4 {
+        color: #343a40;
+        font-size: 20px;
+    }
+
+    #topic_rec {
+        font-size: 30px;
+    }
+
+    /* ------------------------------ */
+
+    .main-text2 {
+        color: #fff;
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        margin: 150px 100px 0px 0px;
+    }
+
+    .rectangle {
+        /* position: absolute; */
+        width: 130px;
+        height: 40px;
+        background: #e8da5a;
+        float: right;
+        margin: 0px 110px 0px 90px;
+        /* float: right; */
+    }
+
+    #discover {
+        margin: 5px 10px 10px 10px;
+        color: #fff;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #Our {
+        font-size: 80px;
+        margin: 100px 100px 40px 50px;
+        text-align: right;
+    }
+
+    #short {
+        margin: 0px 100px 20px 100px;
+        text-align: right;
+    }
+
+    .img-chef {
+        height: 724px;
+    }
+
+    /* ----------------------------------------------- */
+
+    .img-thumbnail {
+        height: 175px;
+        width: 175px;
+        margin: 30px 30px 10px 30px;
+    }
+
+    /* -------------------------------------------------- */
+
+    form {
+        margin-left: 100px;
+    }
+
+    /* --------------------------------------------------- */
+
+    #footer {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #Subscribe {
+        font-size: 30px;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .main-text {
+        color: #fff;
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    #pesto_header {
+        font-size: 100px;
+        font-weight: bold;
+    }
+
+    #bright-img {
+        filter: brightness(60%);
+        height: 900px;
+    }
+
+    /* ---------------------------- */
+
+    .main-text2 {
+        color: #fff;
+        position: absolute;
+        top: 30px;
+        width: 100%;
+        margin: 250px 0px 0px 0px;
+    }
+
+    .rectangle {
+        /* position: absolute; */
+        width: 150px;
+        height: 60px;
+        background: #e8da5a;
+        float: right;
+        margin: 0px 110px 0px 150px;
+        /* float: right; */
+    }
+
+    #discover {
+        margin: 10px 10px 10px 10px;
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #Our {
+        font-size: 100px;
+        margin: 190px 100px 40px 50px;
+        /* text-align: right; */
+    }
+
+    #short {
+        margin: 0px 100px 20px 100px;
+        /* text-align: right; */
+    }
+
+    #para {
+        margin: 0px 100px 20px 100px;
+        /* text-align: right; */
+    }
+
+    .img-chef {
+        height: 1024px;
+    }
+
+    /* ------------------------------------------------------ */
+
+    .img-thumbnail {
+        height: 160px;
+        width: 160px;
+        margin: 30px 30px 10px 30px;
+    }
+
+    /* ------------------------------------------------------- */
+
+    form {
+        margin-left: 200px;
+    }
+
+    /* -------------------------------------------------------- */
+
+    #footer {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+}
+
+
+.header {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+    height: 8px;
+    background: #e8da5a;
+    width: 0%;
+}
